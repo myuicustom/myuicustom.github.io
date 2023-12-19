@@ -8,7 +8,7 @@ function showPopup(paymentMethod) {
     if (paymentMethod === 'PayPal') {
         paymentAddressElem.textContent = 'PayPal: https://paypal.me/anandssmpt';
     } else if (paymentMethod === 'UPI') {
-        paymentAddressElem.textContent = 'UPI: anandbizuka@paytm';
+        paymentAddressElem.textContent = 'UPI: anandssmpt@paytm';
     }
 
     popup.style.display = 'flex';
