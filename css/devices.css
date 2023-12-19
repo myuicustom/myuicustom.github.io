@@ -1,0 +1,213 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #0a86b8;
+        color: #0a86b8;
+        /*background-image: url('./page-bg/devices.jpg');*/
+    }
+    
+    h1 {
+        color: rgb(230, 225, 225);
+        text-align: left;
+        font-size: 24px;
+    }
+    
+    .header {
+        background-color: #beb9b9;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    header img {
+        max-width: 60%;
+        height: auto;
+        border-radius: 10px;
+        padding: 10px;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 30px;
+        margin-left: 80px;
+    }
+    
+    .device-container {
+        max-width: 100%;
+        margin: 10px auto;
+        display: flex;
+        flex-wrap: wrap;
+        color: #191919;
+        justify-content: space-evenly;
+        overflow: hidden;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .device-container a {
+        text-decoration: none;
+        color: #89ffff;
+        display: block;
+        margin-top: 5px;
+    }
+    
+    .device {
+        width: 100%;
+        margin: 10px 0;
+        background-color: #0a323c;
+        border: 1px solid #493f3f;
+        border-radius: 20px;
+        overflow: hidden;
+        color: #ffffff;
+    }
+    
+    .device a {
+        text-decoration: none;
+        color: #61e6f8;
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .device img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        padding-left: 1px;
+        padding-right: 1px;
+        margin-left: 85px;
+    }
+    
+    .device-content {
+        padding: 10px;
+    }
+    
+    .device-specs {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .device-specs ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .device-specs ul li {
+        margin-bottom: 5px;
+    }
+}
+
+
+
+/* Desktop styles */
+@media only screen and (min-width: 768px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #0a86b8;
+        color: #0a86b8;
+        /*background-image: url('./page-bg/devices.jpg');*/
+        margin: 0dvh;
+    }
+    
+    h1 {
+        color: rgb(248, 243, 243);
+        text-align: left;
+        font-size: 20px;
+    }
+    
+    .header {
+        background-color: #beb9b9;
+        color: white;
+        text-align: center;
+    }
+    
+    header img {
+        max-width: 20%;
+        height: auto;
+        padding: 30px;
+        border-radius: 45px;
+        margin-left: 585px;
+        
+    }
+    
+    .device-container {
+        max-width: 1900px;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        color: #191919;
+        justify-content: space-evenly;
+        margin-bottom: 0px;
+    }
+    
+    .device-container a {
+        text-decoration: none;
+        color: #41d8d8;
+        display: block;
+        margin-top: 5px;
+    }
+    
+    .device {
+        width: 20%;
+        margin: 1%;
+        background-color: #0a323c;
+        border: 1px solid #493f3f;
+        border-radius: 20px;
+        overflow: hidden;
+        color: #ffffff;
+    }
+    
+    .device a {
+        text-decoration: none;
+        color: #5af0f5;
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .device img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        padding-left: 1px;
+        padding-right: 1px;
+        margin-left: 35px;
+    }
+    
+    .device-content {
+        padding: 10px;
+    }
+    
+    .device-specs {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .device-specs ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .device-specs ul li {
+        margin-bottom: 5px;
+    }
+}
